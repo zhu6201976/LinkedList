@@ -12,12 +12,19 @@ public class Test {
         nm.add(3);
         nm.add(4);
         nm.add(5);
-//        System.out.println(nm.find(4));
-//        nm.print();
+        System.out.println("----------print---------");
+        nm.print();
+        System.out.println("----------find---------");
+        System.out.println(nm.find(1));
+        System.out.println("----------delete--------");
         nm.delete(3);
         nm.print();
-//        nm.update(3,30);
-//        nm.print();
+        System.out.println("----------update--------");
+        nm.update(5, 50);
+        nm.print();
+        System.out.println("----------insert--------");
+        nm.insert(0,0);
+        nm.print();
 
     }
 
